@@ -23,6 +23,10 @@ AILAB_Code/
 │   ├── grid/
 │   ├── leather/
 │   └── wood/
+├── paper/                 # Documentation and academic report
+│   ├── figures/           # Images and visualizations used in the report
+│   ├── paper.tex          # LaTeX source code for the academic paper
+│   └── paper.pdf          # Compiled final academic report
 ├── weights/               # Saved model checkpoints
 │   └── autoencoder_weights.pth 
 ├── evaluate.py
@@ -31,7 +35,6 @@ AILAB_Code/
 ├── train.py
 ├── requirements.txt
 └── README.md
-```
 
 
 ---

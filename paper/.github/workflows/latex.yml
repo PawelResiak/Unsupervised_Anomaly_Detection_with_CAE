@@ -12,10 +12,11 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
+          working_directory: paper/
           root_file: paper.tex
           
       - name: Upload PDF file as an artifact
         uses: actions/upload-artifact@v3
         with:
           name: Compiled Paper
-          path: paper.pdf
+          path: paper/paper.pdf
