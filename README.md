@@ -15,7 +15,7 @@ If you wish to train the autoencoder from scratch or evaluate it on the full dat
 Ensure your project directory is organized as follows before executing the scripts:
 
 ```text
-AILAB_Code/
+Unsupervised_Anomaly_Detection_with_CAE/
 ├── demo_data/             # Included: Small sample for quick evaluation
 │   └── wood/
 │       └── test/          # Example 'good' and 'scratch' images
