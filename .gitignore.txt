@@ -7,3 +7,12 @@ data/
 # Python cache artifacts
 __pycache__/
 *.pyc
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz

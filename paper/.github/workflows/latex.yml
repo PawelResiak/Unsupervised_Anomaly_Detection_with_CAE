@@ -1,0 +1,21 @@
+name: Compile LaTeX Paper
+
+on: [push]
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+        
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: paper.tex
+          
+      - name: Upload PDF file as an artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Compiled Paper
+          path: paper.pdf
