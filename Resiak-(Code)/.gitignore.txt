@@ -1,0 +1,9 @@
+# Environments
+venv/
+
+# Full dataset
+data/
+
+# Python cache artifacts
+__pycache__/
+*.pyc
